@@ -29,7 +29,7 @@
   <a href="https://github.com/ariharasudhanm/Image_classification_Kaggle_Competition">
     <!-- <img src="images/logo.png" alt="Logo" width="80" height="80"> -->
   </a>
-  <h3 align="center">Image classification using transfer learning </h3>
+  <h3 align="center">Image classification for Kaggle Competetion </h3>
 
   <p align="center">
     Classification of Kenyan foods with transfer learning methods using Pytorch
@@ -54,8 +54,6 @@
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
@@ -64,7 +62,6 @@
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
@@ -73,27 +70,19 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This is a code written for Kaggle competetion [OpenCV Pytorch Course - Classification](https://www.kaggle.com/ariharasudhan/competitions) which includes more than 8000 training samples and its testing procedure is handled quite differently according to the Kaggle testing rules which can be found under the competetion page. Handled number of issues from imbalanced datasets to overfitting and were able to get quite reasonable results which can be found under leaderboard of the competetion page.
+This is a code written for Kaggle competetion [OpenCV Pytorch Course - Classification](https://www.kaggle.com/ariharasudhan/competitions) which includes more than 8000 images for training and testing and its testing procedure is carried out quite similiar to usual kaggle testing procedures which can be found under the competetion page itself. Handled number of issues from imbalanced datasets to overfitting and finally able to reach quite good results which can be found under leaderboard of the competetion page.
 
 
 Project Overview:
-* Dataloader creation(train, validation, test splits) including data augmentation.
-* Experimented with different setups such as training only the classifiers and along with feature extractor layers.
-* Validation and testing.
+* Data augmentation.
+* Dataloader creation(train, validation).
+* Training with different experimental setups such as training only the classifiers and along with feature extraction layers.
+* Hyperparameter tuning and testing is performed.
+* App is published with gradio which is available in [Hugging face](https://huggingface.co/spaces/Ariharasudhan/Kenya_food_classification) to test.
+![image](https://user-images.githubusercontent.com/49080561/189531567-a6d91a7e-70a2-4a93-b408-8be45258b8af.png)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
-### Built With
-
-These are programming languages, libraries, frameworks and other tools used in this project.
-
-* [Python](https://www.python.org/)
-* [Tensorflow](https://www.tensorflow.org/tutorials/images/transfer_learning)
-* [Numpy](https://numpy.org/)
-* [Matplotlib](https://matplotlib.org/)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 
 <!-- GETTING STARTED -->
@@ -107,9 +96,9 @@ These are programming languages, libraries, frameworks and other tools used in t
 <!-- ROADMAP -->
 ## Roadmap
 
-- [x] Data split and data augmentation
-- [x] Training and validation
-- [x] Testing
+- [x] Data prepara
+- [x] Training and validation, Testing
+- [x] App is working
 
 See the [open issues](https://github.com/ariharasudhanm/Image-classification-using-transfer-learning/issues) for a full list of proposed features (and known issues).
 
@@ -159,21 +148,6 @@ Project Link: [Image-classification-using-transfer-learning](https://github.com/
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
-
-* [Tensor flow transfer learning documentation](https://www.tensorflow.org/tutorials/images/transfer_learning)
-* [Tensor flow transfer learning tutorials](https://www.tensorflow.org/tutorials)
-* [Transfer Learning Guide: A Practical Tutorial With Examples for Images and Text in Keras](https://neptune.ai/blog/transfer-learning-guide-examples-for-images-and-text-in-keras)
-* [Transfer Learning with TensorFlow Tutorial: Image Classification Example](https://lambdalabs.com/blog/transfer-learning-with-tensorflow-tutorial-image-classification-example/)
-* [Transfer learning for Deep Neural Networks using TensorFlow](https://medium.com/@saitejaponugoti/transfer-learning-for-deep-neural-networks-using-tensorflow-d628e454e9e5)
-* [Transfer learning and fine-tuning in Keras and Tensorflow](https://voxpow.com/blog/transfer-learning-and-image-recognition-system/)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
