@@ -110,7 +110,7 @@ See the [open issues](https://github.com/ariharasudhanm/Image_classification_Kag
 <!-- Results -->
 ## Results
 
-Testing the trained model for few images from test set `Tested_samples.png`.
+Testing the trained model for few images from test set `tested_samples.png`.
 
 ![image](https://user-images.githubusercontent.com/49080561/189532020-f0b782d8-b7f3-4d66-8d8f-83380e83c33c.png)
 
