@@ -90,7 +90,7 @@ Project Overview:
 * All the codes can be found under the `main.pynb` from data to preparation to training the model.
 * Make sure to change the paths of all the files to your requirements where-ever needed.
 * Complete data used in this project is available in [OpenCV Pytorch Course - Classification](https://www.kaggle.com/competitions/opencv-pytorch-dl-course-classification/data).
-* Some samples images used to train can be found under `Sample_Data`
+* Some sample images used to train can be found under `Images/Train_samples` directory.
 * Trained model is available as `model.pth`.
 
 
@@ -110,7 +110,7 @@ See the [open issues](https://github.com/ariharasudhanm/Image_classification_Kag
 <!-- Results -->
 ## Results
 
-Testing the trained model for first few images from test set `Images/Tested_samples.png`.
+Testing the trained model for few images from test set `Images/Tested_samples.png`.
 
 ![image](https://user-images.githubusercontent.com/49080561/189532020-f0b782d8-b7f3-4d66-8d8f-83380e83c33c.png)
 
