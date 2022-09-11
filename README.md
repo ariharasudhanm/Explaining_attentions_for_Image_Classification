@@ -78,8 +78,10 @@ Project Overview:
 * Dataloader creation(train, validation).
 * Training with different experimental setups such as training only the classifiers and along with feature extraction layers.
 * Hyperparameter tuning and testing is performed.
-* App is published with gradio which is available in [Hugging face](https://huggingface.co/spaces/Ariharasudhan/Kenya_food_classification) to test.
-![image](https://user-images.githubusercontent.com/49080561/189531567-a6d91a7e-70a2-4a93-b408-8be45258b8af.png)
+* App is built with gradio which is available in [Hugging face](https://huggingface.co/spaces/Ariharasudhan/Kenya_food_classification) to test.
+
+![Screenshot from 2022-09-11 16-50-50](https://user-images.githubusercontent.com/49080561/189534158-28a68757-9d2c-4490-9eb1-f96b58966e2e.png)
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
