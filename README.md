@@ -80,7 +80,10 @@ Project Overview:
 * Hyperparameter tuning and testing is performed.
 * App is built with gradio which is available in [Hugging face](https://huggingface.co/spaces/Ariharasudhan/Kenya_food_classification) to test.
 
-![app](https://user-images.githubusercontent.com/49080561/189534238-c80315f4-8b3a-483f-a8de-d5eb15015cc1.png)
+<p align="center" width="100%">
+       <img width="80%" src="https://user-images.githubusercontent.com/49080561/189544835-6bacf23c-78d2-4b55-8cd9-fcb0f942a572.png">
+     </p>
+
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -90,10 +93,10 @@ Project Overview:
 <!-- GETTING STARTED -->
 ## Usage
 * All the codes can be found under the `main.pynb` from data to preparation to training the model.
-* Make sure to change the paths of all the files to your requirements where-ever needed.
+* Make sure to change the paths of all the files to your requirements where-ever needed if your'e training for a new model.
 * Complete data used in this project is available in [OpenCV Pytorch Course - Classification](https://www.kaggle.com/competitions/opencv-pytorch-dl-course-classification/data).
 * Some sample images used to train can be found under `Sample_data` directory.
-* Trained model is available as `model.pth`.
+* Trained model can be downloaded from [model.pth](https://drive.google.com/drive/folders/1MnlHoSVOOMgoyY1_6N8eOo2r2VeX6cg8?usp=sharing).
 
 
 
@@ -113,7 +116,11 @@ See the [open issues](https://github.com/ariharasudhanm/Image_classification_Kag
 ## Results
 
 Testing the trained model for few images from test set `Tested_samples.png`.
-![Tested_samples](https://user-images.githubusercontent.com/49080561/189534349-c92d2bc3-88fa-4b8a-ab78-274f9c0a8833.png)
+<p align="center" width="100%">
+       <img width="85%" src="https://user-images.githubusercontent.com/49080561/189534349-c92d2bc3-88fa-4b8a-ab78-274f9c0a8833.png">
+     </p>
+
+<!-- ![Tested_samples](https://user-images.githubusercontent.com/49080561/189534349-c92d2bc3-88fa-4b8a-ab78-274f9c0a8833.png) -->
 
 
 
