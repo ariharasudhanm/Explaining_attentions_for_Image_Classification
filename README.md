@@ -116,8 +116,8 @@ See the [open issues](https://github.com/ariharasudhanm/Image_classification_Kag
 ## Results
 
 Testing the trained model for few images from test set `tested_samples.png`.
-<p align="center" width="50%">
-       <img width="50%" src="https://user-images.githubusercontent.com/49080561/189545478-d5a5951d-20d2-4480-b54e-964a3842554b.png">
+<p align="center" width="55%">
+       <img width="55%" src="https://user-images.githubusercontent.com/49080561/189545478-d5a5951d-20d2-4480-b54e-964a3842554b.png">
      </p>
 
 <!-- ![Tested_samples](https://user-images.githubusercontent.com/49080561/189534349-c92d2bc3-88fa-4b8a-ab78-274f9c0a8833.png) -->
