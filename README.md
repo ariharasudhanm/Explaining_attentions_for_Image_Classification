@@ -13,9 +13,9 @@
 
 <div align="center">
   
-[![Contributors][contributors-shield]](https://github.com/ariharasudhanm/Image-classification-using-transfer-learning/graphs/contributors)
-[![Last-commit][last commit-shield]](https://github.com/ariharasudhanm/Image-classification-using-transfer-learning/graphs/commit-activity)
-[![MIT License][license-shield]](https://github.com/ariharasudhanm/Image-classification-using-transfer-learning/blob/main/LICENSE)
+[![Contributors][contributors-shield]](https://github.com/ariharasudhanm/Image_classification_Kaggle_Competition/graphs/contributors)
+[![Last-commit][last commit-shield]](https://github.com/ariharasudhanm/Image_classification_Kaggle_Competition/graphs/commit-activity)
+[![license-url][license-shield]](https://github.com/ariharasudhanm/Image_classification_Kaggle_Competition/blob/main/LICENSE)
 [![LinkedIn][linkedin-shield]](https://www.linkedin.com/in/ariharasudhan/)
 <!-- [![Forks][forks-shield]][forks-url] If needed add it later
 [![Stargazers][stars-shield]][stars-url]  If needed add it later -->
@@ -26,22 +26,22 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/ariharasudhanm/Image-classification-using-transfer-learning">
+  <a href="https://github.com/ariharasudhanm/Image_classification_Kaggle_Competition">
     <!-- <img src="images/logo.png" alt="Logo" width="80" height="80"> -->
   </a>
   <h3 align="center">Image classification using transfer learning </h3>
 
   <p align="center">
-    Classification of acoustic and electric guitar with transfer learning methods using tensor flow
+    Classification of Kenyan foods with transfer learning methods using Pytorch
     <br />
-    <a href="https://github.com/ariharasudhanm/Image-classification-using-transfer-learning"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/ariharasudhanm/Image_classification_Kaggle_Competition"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <!-- <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a> -->
     ·
-    <a href="https://github.com/ariharasudhanm/Image-classification-using-transfer-learning/issues">Report Bug</a>
+    <a href="https://github.com/ariharasudhanm/Image_classification_Kaggle_Competition/issues">Report Bug</a>
     ·
-    <a href="https://github.com/ariharasudhanm/Image-classification-using-transfer-learning/community">Request Feature</a>
+    <a href="https://github.com/ariharasudhanm/Image_classification_Kaggle_Competition/graphs/community">Request Feature</a>
   </p>
 </div>
 
@@ -73,12 +73,12 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Training samples][product-screenshot]](https://github.com/ariharasudhanm/Image-classification-using-transfer-learning/blob/main/Images/Samples_from_original_dataset.png) | [![Sample data augmentation][product-screenshot]](https://github.com/ariharasudhanm/Image-classification-using-transfer-learning/blob/main/Images/Image_augmentation.png) |  [![Training and validation accuracy][product-screenshot]](https://github.com/ariharasudhanm/Image-classification-using-transfer-learning/blob/main/Images/Training_and_validation_accuracy.png)
+This is a code written for Kaggle competetion [OpenCV Pytorch Course - Classification](https://www.kaggle.com/ariharasudhan/competitions) which includes more than 8000 training samples and its testing procedure is handled quite differently according to the Kaggle testing rules which can be found under the competetion page. Handled number of issues from imbalanced datasets to overfitting and were able to get quite reasonable results which can be found under leaderboard of the competetion page.
 
 
 Project Overview:
-* Dataset creation(train, validation, test splits) including data augmentation.
-* Training few layers layers and perform validation to know whether to further train few more layers.
+* Dataloader creation(train, validation, test splits) including data augmentation.
+* Experimented with different setups such as training only the classifiers and along with feature extractor layers.
 * Validation and testing.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -188,11 +188,11 @@ Use this space to list resources you find helpful and would like to give credit 
 [issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
 [issues-url]: https://github.com/othneildrew/Best-README-Template/issues
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
+[license-url]: https://github.com/ariharasudhanm/Image_classification_Kaggle_Competition/blob/main/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/othneildrew
 [product-screenshot]: images/screenshot.png
-[Commit-shield]: https://img.shields.io/github/commit-activity/m/ariharasudhanm/Image-classification-using-transfer-learning?color=Green&style=for-the-badge
+
 [Last-commit]: https://github.com/ariharasudhanm/Image_classification_Kaggle_Competition/graphs/commit-activity
-[last commit-shield]: https://img.shields.io/github/last-commit/ariharasudhanm/Image-classification-using-transfer-learning?style=for-the-badge
+[last commit-shield]: https://img.shields.io/github/last-commit/ariharasudhanm/Image_classification_Kaggle_Competition?style=for-the-badge
 [matplotlib-shield]: https://img.shields.io/badge/Matplotlib-v3-Green
