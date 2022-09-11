@@ -87,30 +87,33 @@ Project Overview:
 
 <!-- GETTING STARTED -->
 ## Usage
-* There are three directories inside the dataset directory called test, val(for validation) and train  where each directories contains 2 directories called    acoustic and electric which contains respective categories of images (this is done manually to avoid API contradictions in tensorflow but it is better to split it randomly in order to avoid bias in train,validation,test set splitting process).
-* In the notebook we use absolute path of these directories to feed it when creating a train, test, validation datasets(be aware of this while running).
-* In order to avoid confusions running it on different OS platforms we are considering the absloute path of the images while creating datasets.
-* You can add more images to their respective images directories if needed.
+* All the codes can be found under the `main.pynb` from data to preparation to training the model.
+* Make sure to change the paths of all the files to your requirements where-ever needed.
+* Complete data used in this project is available in [OpenCV Pytorch Course - Classification](https://www.kaggle.com/competitions/opencv-pytorch-dl-course-classification/data).
+* Some samples images used to train can be found under `Sample_Data`
+* Trained model is available as `model.pth`.
+
 
 
 <!-- ROADMAP -->
 ## Roadmap
 
-- [x] Data prepara
-- [x] Training and validation, Testing
-- [x] App is working
+- [x] Data preparation.
+- [x] Training and validation, Testing.
+- [x] Hyperparameter Tuning.
+- [x] Publishing the model as app.
 
-See the [open issues](https://github.com/ariharasudhanm/Image-classification-using-transfer-learning/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/ariharasudhanm/Image_classification_Kaggle_Competition/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- Results -->
 ## Results
 
-Testing the trained model for first six images from test set `Images/Test_Samples.png`.
+Testing the trained model for first few images from test set `Images/Tested_samples.png`.
 
+![image](https://user-images.githubusercontent.com/49080561/189532020-f0b782d8-b7f3-4d66-8d8f-83380e83c33c.png)
 
-![Testing_few_images](https://user-images.githubusercontent.com/49080561/147982594-b16cfff7-fd0c-4b13-a242-7542360e4c28.png)
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -144,7 +147,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Your Name - [@AriharasudhanM](https://twitter.com/your_username) - ariharasudhan.muthusami@gmail.com
 
-Project Link: [Image-classification-using-transfer-learning](https://github.com/ariharasudhanm/Image-classification-using-transfer-learning)
+Project Link: [Image-classification-Kaggle-Competition](https://github.com/ariharasudhanm/Image_classification_Kaggle_Competition)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
