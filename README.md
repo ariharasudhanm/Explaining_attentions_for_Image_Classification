@@ -138,7 +138,7 @@ This section is composed of instructions to run a docker container for inferenci
 4. Now we should be inside that container in `/usr/src/files` this directory if you use `ls` command then you should be able to see the `new_dir` which you created earlier.
 5. Using `python3 --image {new_dir/name_of_img.jpeg}` should list down the predictions with the top three probabilities.
 7. Use `exit` command to exit the container since, we are using the `--rm` tag we will loose this container after exiting.
-8. If you list down all the containers using `docker ps -a` or `docker container list ls` previously container will not be there.
+8. If you list down all the containers using `docker ps -a` or `docker container list ls` previously created container will not be there.
 
 
 
