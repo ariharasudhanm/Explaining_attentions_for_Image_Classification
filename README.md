@@ -59,6 +59,7 @@
     <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#results">Results</a></li>
+     <li><a href="#docker-container">Docker Container</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -106,11 +107,14 @@ Project Overview:
 - [x] Data preparation.
 - [x] Training and validation, Testing.
 - [x] Hyperparameter Tuning.
+- [x] Running docker container for inference.
 - [x] Publishing the model as app.
+
 
 See the [open issues](https://github.com/ariharasudhanm/Image_classification_Kaggle_Competition/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
+
 
 <!-- Results -->
 ## Results
@@ -122,6 +126,18 @@ Testing the trained model for few images from test set `tested_samples.png`.
 
 <!-- ![Tested_samples](https://user-images.githubusercontent.com/49080561/189534349-c92d2bc3-88fa-4b8a-ab78-274f9c0a8833.png) -->
 
+
+<!-- DOCKER CONTAINER -->
+## Docker Container 
+
+This section is composed of instructions to run a docker container for inferencing an image in the local machine(Linux).
+
+1. You can pull the docker image to your local machine by using this command `docker pull ariharasudhan/food-classifier` in a command terminal, by default it will pull the latest image so no issues with image versions.
+2. You can check the availability of this image in the local host by using `docker images ls -a` in a command terminal which should list down all the images including `img-classifier` which we are going to use to build a docker container.
+3. Now you can run the command `sudo docker run --name {name_of_your_container} --rm  -it -v {img_dir/path/in/localhost}:/usr/src/files/{new_dir}  img-classifier bash` which will create a new container and new volume inside the container and mount the local image directory to the container new_dir itself.
+4. Now we should be inside that container and `/usr/src/files' this directory finally use `
+5. Since we are using the `--rm` tag we will loose this container after exiting.
+6.Results should appear in a dictionary with the top three probabilities.
 
 
 
