@@ -107,6 +107,7 @@ Project Overview:
 - [x] Data preparation.
 - [x] Training and validation, Testing.
 - [x] Hyperparameter Tuning.
+- [x] Class Activation Maps. 
 - [x] Running docker container for inference.
 - [x] Publishing the model as app.
 
@@ -115,16 +116,29 @@ See the [open issues](https://github.com/ariharasudhanm/Image_classification_Kag
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+## Hyperparameter Tuning
+
 
 <!-- Results -->
 ## Results
 
 Testing the trained model for few images from test set `tested_samples.png`.
-<p align="center" width="55%">
-       <img width="55%" src="https://user-images.githubusercontent.com/49080561/189545478-d5a5951d-20d2-4480-b54e-964a3842554b.png">
+<p align="center" width="45%">
+       <img width="45%" src="https://user-images.githubusercontent.com/49080561/189545478-d5a5951d-20d2-4480-b54e-964a3842554b.png">
      </p>
 
 <!-- ![Tested_samples](https://user-images.githubusercontent.com/49080561/189534349-c92d2bc3-88fa-4b8a-ab78-274f9c0a8833.png) -->
+
+## Class Activation Maps
+- Adding a explainibility to the model with the help of class activation maps, identifying the regions that caused the model to choose that specific class.
+- We used the technique called Deep Features for Discriminative Localization which was published in this paper Bolei Zhou, Aditya Khosla, Agata Lapedriza, Aude Oliva, Antonio Torralba; Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2016, pp. 2921-2929. Since this technique is time efficient when our network has global average pooling layer.
+- It not only adds explainability but also helped for to consider necessary data augementation procedures to some extend.
+- Classfication along with class activation maps are available in the huggingface which can be accessed through this [Hugging face space](https://huggingface.co/spaces/Ariharasudhan/Class_Activation_Maps).
+
+<p align="center" width="55%">
+       <img width="75%" src="https://user-images.githubusercontent.com/49080561/214825273-f6070a1a-044a-4b0b-9e1e-36a0b92dd464.png">
+     </p>
+
 
 
 <!-- DOCKER CONTAINER -->
