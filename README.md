@@ -81,8 +81,8 @@ Project Overview:
 * Hyperparameter tuning and testing is performed.
 * App is built with gradio which is available in [Hugging face](https://huggingface.co/spaces/Ariharasudhan/Kenya_food_classification) to test.
 
-<p align="center" width="75%">
-       <img width="75%" src="https://user-images.githubusercontent.com/49080561/189544835-6bacf23c-78d2-4b55-8cd9-fcb0f942a572.png">
+<p align="center" width="62%">
+       <img width="62%" src="https://user-images.githubusercontent.com/49080561/189544835-6bacf23c-78d2-4b55-8cd9-fcb0f942a572.png">
      </p>
 
 
@@ -117,14 +117,20 @@ See the [open issues](https://github.com/ariharasudhanm/Image_classification_Kag
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Hyperparameter Tuning
-
-
+- I have considered random grid search method for hyper parameter optimization for chosen parameters such as batch size, optimizers, learning rate and dropout.
+- I was able to find the optimal parameters using the simple random grid search with very few parameters itself.
+- Thanks to weight and bias sinceI used tool to monitor this whole hyperparameter tuning iterations which can be found here 
+<p align="center" width="70%">
+       <img width="70%" src="https://user-images.githubusercontent.com/49080561/214831481-e95f96e1-10b8-4604-b9ac-9414fc737864.png">
+       </p>
+       
 <!-- Results -->
+
 ## Results
 
 Testing the trained model for few images from test set `tested_samples.png`.
-<p align="center" width="45%">
-       <img width="45%" src="https://user-images.githubusercontent.com/49080561/189545478-d5a5951d-20d2-4480-b54e-964a3842554b.png">
+<p align="center" width="50%">
+       <img width="50%" src="https://user-images.githubusercontent.com/49080561/189545478-d5a5951d-20d2-4480-b54e-964a3842554b.png">
      </p>
 
 <!-- ![Tested_samples](https://user-images.githubusercontent.com/49080561/189534349-c92d2bc3-88fa-4b8a-ab78-274f9c0a8833.png) -->
