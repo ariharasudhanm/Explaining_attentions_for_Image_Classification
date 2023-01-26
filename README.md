@@ -118,7 +118,7 @@ See the [open issues](https://github.com/ariharasudhanm/Image_classification_Kag
 
 ## Hyperparameter Tuning
 - I have considered random grid search method for hyper parameter optimization for chosen parameters such as batch size, optimizers, learning rate and dropout.
-- Thanks to weight and bias since I used this tool to monitor the whole hyperparameter tuning iterations which can be found here 
+- Thanks to weight and bias since I used this tool to monitor the whole hyperparameter tuning iterations which can be found here [wandbi](https://wandb.ai/ariharasudhan-muthusami/Image%20Classification)
 <p align="center" width="70%">
        <img width="70%" src="https://user-images.githubusercontent.com/49080561/214831481-e95f96e1-10b8-4604-b9ac-9414fc737864.png">
        </p>
