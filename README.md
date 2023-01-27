@@ -136,8 +136,8 @@ Testing the trained model for few images from test set `tested_samples.png`.
 
 ## Class Activation Maps
 - Adding an explainibility method to the model with the help of class activation maps, identifying the regions that caused the model to choose that specific class for an image.
-- We used the technique called Deep Features for Discriminative Localization which was published in this paper Bolei Zhou, Aditya Khosla, Agata Lapedriza, Aude Oliva, Antonio Torralba; Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2016, pp. 2921-2929. Since this technique is time efficient when our network has global average pooling layer.
-- It not only adds explainability but also helped for to consider necessary data augementation procedures to some extend.
+- We used the technique called Deep Features for Discriminative Localization which was published in this paper Bolei Zhou, Aditya Khosla, Agata Lapedriza, Aude Oliva, Antonio Torralba; Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2016, pp. 2921-2929. Since this technique is reliable when our network(efficientnetb4) has global average pooling layer.
+- It not only adds explainability but also helped to consider necessary data augementation procedures to some extend.
 - Classfication along with class activation maps are available in the huggingface which can be accessed through this [Hugging face space](https://huggingface.co/spaces/Ariharasudhan/Class_Activation_Maps).
 
 <p align="center" width="55%">
