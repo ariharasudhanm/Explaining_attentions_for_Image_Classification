@@ -151,7 +151,7 @@ Trained model is available in the [model](https://huggingface.co/Ariharasudhan/e
 
 This section is composed of instructions to run a docker container for inferencing an image in the local machine(Linux).
 
-1. You can pull the docker image to your local machine by using this command `docker pull ariharasudhan/food-classifier` in a command terminal, by default it will pull the latest image so no issues with image versions.
+1. You can pull the docker image to your local machine by using this command `docker pull ariharasudhan/food-classifier` in a command terminal or you can find it in the [docker repo](https://hub.docker.com/r/ariharasudhan/food-classifier/tags), by default it will pull the latest image so no issues with image versions.
 2. You can check the availability of this image in the local host by using `docker images ls -a` in a command terminal which should list down all the images including `img-classifier` which we are going to use to build a docker container.
 3. Now you can run the command `docker run --name {name_of_your_container} --rm  -it -v {img_dir/path/in/localhost}:/usr/src/files/{new_dir}  img-classifier bash` which will create a new container and new volume called `new_dir` inside the container and mount the local directory which has images to the newly created container in the `new_dir` itself.
 4. Now we should be inside that container in `/usr/src/files` this directory if you use `ls` command then you should be able to see the `new_dir` which you created earlier.
