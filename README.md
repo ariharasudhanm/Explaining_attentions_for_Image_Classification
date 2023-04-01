@@ -84,8 +84,8 @@ Project Overview:
 
 
 
-<p align="center" width="62%">
-       <img width="62%" src="">
+<p align="center" width="75%">
+       <img width="75%" src="https://github.com/ariharasudhanm/Image_classification_Kaggle_Competition/blob/main/app.gif">
      </p>
 
 
