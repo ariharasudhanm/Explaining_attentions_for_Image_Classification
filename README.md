@@ -81,14 +81,11 @@ Project Overview:
 * Hyperparameter tuning and testing is performed.
 * App is built with gradio which is available in [Hugging face](https://huggingface.co/spaces/Ariharasudhan/Kenya_food_classification) to test.
 
-<p align="center" width="62%">
-       <img width="62%" src="https://user-images.githubusercontent.com/49080561/189544835-6bacf23c-78d2-4b55-8cd9-fcb0f942a572.png">
-     </p>
 
 
 
 <p align="center" width="62%">
-       <img width="62%" src="https://github.com/ariharasudhanm/Image_classification_Kaggle_Competition/blob/main/sample.gif">
+       <img width="62%" src="">
      </p>
 
 
