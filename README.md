@@ -87,6 +87,12 @@ Project Overview:
 
 
 
+<p align="center" width="62%">
+       <img width="62%" src="https://raw.githubusercontent.com/ariharasudhanm/Image_classification_Kaggle_Competition/main/giphy.gif">
+     </p>
+
+
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
