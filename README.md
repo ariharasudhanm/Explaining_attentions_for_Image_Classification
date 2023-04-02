@@ -29,7 +29,7 @@
   <a href="https://github.com/ariharasudhanm/Explaining_attentions_for_Image_classification">
     <!-- <img src="images/logo.png" alt="Logo" width="80" height="80"> -->
   </a>
-  <h3 align="center">Image classification for Kaggle Competetion </h3>
+  <h3 align="center">Explaining_attentions_for_Image_classification (Kaggle Competetion) </h3>
 
   <p align="center">
     Classification of Kenyan foods with transfer learning methods using Pytorch
