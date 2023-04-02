@@ -13,9 +13,9 @@
 
 <div align="center">
   
-[![Contributors][contributors-shield]](https://github.com/ariharasudhanm/Image_classification_Kaggle_Competition/graphs/contributors)
-[![Last-commit][last commit-shield]](https://github.com/ariharasudhanm/Image_classification_Kaggle_Competition/graphs/commit-activity)
-[![license-url][license-shield]](https://github.com/ariharasudhanm/Image_classification_Kaggle_Competition/blob/main/LICENSE)
+[![Contributors][contributors-shield]](https://github.com/ariharasudhanm/Explaining_attentions_for_Image_classification/graphs/contributors)
+[![Last-commit][last commit-shield]](https://github.com/ariharasudhanm/Explaining_attentions_for_Image_classification/graphs/commit-activity)
+[![license-url][license-shield]](https://github.com/ariharasudhanm/Explaining_attentions_for_Image_classification/blob/main/LICENSE)
 [![LinkedIn][linkedin-shield]](https://www.linkedin.com/in/ariharasudhan/)
 <!-- [![Forks][forks-shield]][forks-url] If needed add it later
 [![Stargazers][stars-shield]][stars-url]  If needed add it later -->
@@ -26,7 +26,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/ariharasudhanm/Image_classification_Kaggle_Competition">
+  <a href="https://github.com/ariharasudhanm/Explaining_attentions_for_Image_classification">
     <!-- <img src="images/logo.png" alt="Logo" width="80" height="80"> -->
   </a>
   <h3 align="center">Image classification for Kaggle Competetion </h3>
